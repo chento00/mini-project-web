@@ -1,0 +1,119 @@
+.txt-stad{
+    color: #3C9379;
+    text-align: center;
+}
+.custom-primary-color{
+    background-color:#3C9379;
+    border:1px solid #3C9379;
+}
+.footer-box{
+    height: 200px;
+}
+.footer-box .footer-items{
+    height: 200px;
+}
+.footer-box .footer-items .txt-des{
+    margin-top: 20px;
+    padding-right: 150px;
+}
+.footer-box .footer-items ul li a{
+    text-align: right;
+    font-size: 18px;
+    padding: 15px 0;
+    color: grey;
+}
+header{
+    z-index: 1;
+    background-color:white;
+    border-bottom: 2px solid #3C9379;
+}
+.item-main{
+	height: 300px;
+	padding: 10px;
+} 
+.item-main .items{
+	height: 100%;
+	width: 100%;
+	padding: 20px;
+}
+.item-main .items .txt-head{
+	height: 35%;
+	width: 40%;
+}
+.item-main .items .txt-bottom{
+	height: 65%;
+	border-bottom: 2px solid grey;
+	display: flex;
+	flex-direction: column;
+	padding-top: 10px;
+}
+.item-main .items .txt-bottom a{
+	text-decoration: none;
+	color: grey;
+	font-weight: 600;
+	line-height: 35px;
+}
+.item-main .items .txt-bottom a span{
+	color: #3C9379;
+}
+.item-main .items .txt-head span{
+	color: #3C9379;
+}
+.item-main .items img{
+	width: 100%;
+	height: 100%;
+}
+.address-main{
+	padding: 30px;
+}
+.address-main address{
+	margin-top: 20px;
+}
+.address-main .google-map{
+	height: 330px;
+	width: 100%;
+	border-radius: 15px;
+	border: 2px solid #3C9379;
+	overflow: hidden;
+}
+.address-main .google-map iframe{
+	height: 100%;
+	height: 100%;
+
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+    .footer-box .footer-items .txt-des{
+        margin: 0;
+        padding: 0;
+    }
+	
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+    
+    .footer-box .footer-items .txt-des{
+        margin: 0;
+        padding: 0;
+    }
+	
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .footer-box .footer-items .txt-des{
+        margin: 0;
+        padding: 0;
+    }
+	
+}

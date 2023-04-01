@@ -1,0 +1,99 @@
+body{
+  margin: 0;
+  padding: 0;
+}
+div{
+  box-sizing: border-box;
+}
+.register-frm-main{
+  margin: auto;
+  padding: 15px;
+}
+.register-frm-main .input-frm{
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 40px;
+
+}
+.register-frm-main .input-frm .item-main-input {
+  display: flex;
+  flex-direction: column;
+}
+.register-frm-main .input-frm .item-main-input label{
+  margin-top: 20px;
+  font-size: 20px;
+  color: grey;
+}
+.register-frm-main .input-frm .item-main-input input{
+  border: 2px solid #3C9379;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.img-box img{
+  width: 100%;
+  height: 100%;
+}
+.form-check{
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.form-check input{
+  padding: 10px;
+}
+.form-check label{
+  margin-left: 10px;
+}
+.register-frm-main .input-frm  button{
+  background-color: #3C9379;
+  padding: 10px;
+  margin-left: 13px;
+  margin-top: 20px;
+}
+.register-frm-main .input-frm  h6{
+  margin-top: 15px;
+  margin-left: 13px;
+}
+.register-frm-main .input-frm  h6 a{
+  color: #3C9379;
+}
+.register-frm-main .input-frm .item-main-input input:focus {
+  border: 3px solid blue;
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .istad-txt{
+    display: none;
+  }
+  .img-box{
+    display: none;
+  }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+  .istad-txt{
+    display: none;
+  }
+  .img-box{
+    display: none;
+  }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+  .istad-txt{
+    display: none;
+  }
+  .img-box{
+    display: none;
+  }
+}

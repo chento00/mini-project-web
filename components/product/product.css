@@ -1,0 +1,197 @@
+.txt-stad{
+    color: #3C9379;
+    text-align: center;
+}
+.custom-primary-color{
+    background-color:#3C9379;
+    border:1px solid #3C9379;
+}
+header{
+    z-index: 1;
+    background-color:white;
+    border-bottom: 2px solid #3C9379;
+}
+.footer-box{
+    height: 200px;
+}
+.footer-box .footer-items{
+    height: 200px;
+}
+.footer-box .footer-items .txt-des{
+    margin-top: 20px;
+    padding-right: 150px;
+}
+.footer-box .footer-items ul li a{
+    text-align: right;
+    font-size: 18px;
+    padding: 15px 0;
+    color: grey;
+}.product-contain-full{
+    max-width: 98%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.product-contain-full>img{
+    width: 2%;
+    height: 30px;
+}
+.contain-product{
+    height: 350px;
+}
+.contain-product .product-item{
+    height: 350px;
+    padding: 10px;
+}
+.contain-product .product-item .product-item-lst{
+    height: 100%;
+    border-radius: 15px;
+    border: 2px solid #3C9379;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+}
+.contain-product .product-item  a{
+    text-decoration: none;
+    color: black;
+}
+.btn-discount{
+    right: 5px;
+    top: 5px;
+    background-color: #3c9379d1;
+    border-radius: 15px;
+    color: white;
+    width: 120px;
+    font-weight: 600;
+}
+.contain-product .product-item .product-item-lst:hover{
+    background-color: rgba(0, 0, 0, 0.088);
+}
+.contain-product .product-item .product-item-lst .img-box{
+    height: 65%;
+    width: 100%;
+}
+.contain-product .product-item .product-item-lst .img-box img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.contain-product .product-item .product-item-lst .txt-title{
+    height: 17.5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+}
+.contain-product .product-item .product-item-lst .txt-price{
+    height: 17.5%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    font-weight: 700;
+    color: #3C9379;
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+    .footer-box .footer-items .txt-des{
+        margin: 0;
+        padding: 0;
+    }
+    .contain-product .product-item:nth-child(3){
+        display: none;
+    }
+    .product-contain-full{
+        max-width: 100%;
+    }
+    .product-contain-full img{
+        width: 8%;
+        height: 40px;
+    }
+    .contain-product .product-item .product-item-lst .txt-title{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .contain-product .product-item .product-item-lst .txt-price{
+        font-size: 20px;
+    }
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+    
+    .footer-box .footer-items .txt-des{
+        margin: 0;
+        padding: 0;
+    }
+    .contain-product .product-item:nth-child(3){
+        display: none;
+    }
+    .contain-product{
+        height: 300px;
+    }
+    .contain-product .product-item{
+        height: 300px;
+        padding: 10px;
+    }
+    .product-contain-full{
+        max-width: 100%;
+    }
+    .product-contain-full img{
+        width: 10%;
+        height: 30px;
+    }
+    .contain-product .product-item .product-item-lst .txt-title{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .contain-product .product-item .product-item-lst .txt-price{
+        font-size: 20px;
+    }
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .footer-box .footer-items .txt-des{
+        margin: 0;
+        padding: 0;
+    }
+    .contain-product{
+        height: 250px;
+    }
+    .contain-product .product-item{
+        height: 250px;
+    }
+    .contain-product .product-item:nth-child(3){
+        display: none;
+    }
+    .product-contain-full{
+        max-width: 100%;
+    }
+    .product-contain-full img{
+        width: 10%;
+        height: 30px;
+    }
+    .contain-product .product-item .product-item-lst .txt-title{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .contain-product .product-item .product-item-lst .txt-price{
+        font-size: 20px;
+    }
+    .contain-product .product-item .product-item-lst .img-box img{
+        object-fit: contain;
+    }
+}

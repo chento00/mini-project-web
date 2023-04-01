@@ -1,0 +1,197 @@
+.txt-stad{
+    color: #3C9379;
+    text-align: center;
+}
+.custom-primary-color{
+    background-color:#3C9379;
+    border:1px solid #3C9379;
+}
+.footer-box{
+    height: 200px;
+}
+.footer-box .footer-items{
+    height: 200px;
+}
+.footer-box .footer-items .txt-des{
+    margin-top: 20px;
+    padding-right: 150px;
+}
+.footer-box .footer-items ul li a{
+    text-align: right;
+    font-size: 18px;
+    padding: 15px 0;
+    color: grey;
+}
+header{
+    z-index: 1;
+    background-color:white;
+    border-bottom: 2px solid #3C9379;
+}
+.product-infor{
+	height: 80vh;
+}
+.product-infor .img-box{
+	height: 80vh;
+	
+}
+.product-infor .img-box .large-img .large-img-main{
+	height: 70vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	padding: 10px;
+}.product-infor .img-box .large-img .btn-back,
+.product-infor .img-box .large-img .btn-next{
+	width: 10%;
+	font-size: 35px;
+	display: flex;
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+.product-infor .img-box .small-img{
+	height: 10%;
+	display: flex;
+	justify-content: center;
+}
+.product-infor .img-box .img-item{
+	height: 100%;
+	width: 80%;
+	border-radius: 15px;
+	border: 2px solid #3C9379;
+	overflow: hidden;
+}
+.product-infor .img-box .img-item img{
+	width: 100%;
+	height: 100%;
+}
+.product-infor .img-box .small-img .item-small-img{
+	width: 100px;
+	height: 100%;
+	margin:0 10px;
+	border-radius: 7px;
+	border: 2px solid #3C9379;
+	overflow: hidden;
+	cursor: pointer;
+}.product-infor .img-box .small-img .item-small-img img{
+	width: 100%;
+	height: 100%;
+	object-fit: contain;
+}
+.product-infor .detail-box{
+	height: 80vh;
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	padding-right: 50px;
+}
+.product-infor .detail-box .txt-des{
+	height: 21%;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+}
+.product-infor .detail-box h3{
+	margin: 10px 0;
+}
+.product-infor .detail-box .txt-des{
+	margin: 20px 0;
+}
+.product-infor .detail-box .color-box,
+.product-infor .detail-box .size-box{
+	width: 100%;
+	display: flex;
+}
+.product-infor .detail-box .size-box .size:hover{
+    background-color: rgba(0, 0, 0, 0.088);
+}
+.product-infor .detail-box .color-box .color,
+.product-infor .detail-box .size-box .size{
+	height: 70px;
+	width: 70px;
+	border: 2px solid #3C9379;
+	margin-right: 10px;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: bold;
+	font-size: 20px;
+	cursor: pointer;
+}
+.product-infor .detail-box .color-box .color-1{
+	background-color: red;
+}
+.product-infor .detail-box .color-box .color-2{
+	background-color: green;
+}
+.product-infor .detail-box .color-box .color-2{
+	background-color: black;
+}
+.product-infor .detail-box button{
+	margin-top: 20px;
+	width: 150px;
+	background-color: #3C9379;
+	border: white;
+	padding: 10px;
+}
+.product-infor .detail-box h3 span{
+	color: #3C9379;
+}
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+  
+}
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  
+}
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+   
+    .footer-box .footer-items .txt-des{
+        margin: 0;
+        padding: 0;
+    }
+	.product-infor .img-box .img-item img{
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px){ 
+    
+    .footer-box .footer-items .txt-des{
+        margin: 0;
+        padding: 0;
+    }
+	.product-infor .img-box .img-item img{
+		width: 100%;
+		height: 100%;
+		object-fit: contain;
+	}
+	.product-infor .img-box .img-item img{
+		object-fit: cover;
+	}
+}
+
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+    .footer-box .footer-items .txt-des{
+        margin: 0;
+        padding: 0;
+    }
+	
+	
+	.product-infor .img-box .img-item img{
+		object-fit: cover;
+	}
+	.product-infor .detail-box h3{
+		font-size: 20px;
+		overflow: hidden;
+	}
+}
